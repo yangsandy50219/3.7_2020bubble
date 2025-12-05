@@ -132,7 +132,7 @@
                 return {
                     name: d.name,
                     value: d.value,
-                    symbolSize: 60 + (d.value / maxVal) * 110,
+                    symbolSize: 50 + (d.value / maxVal) * 100,
                     draggable: true,
                     itemStyle: style,
                     label: {
@@ -165,8 +165,8 @@
                         roam: true,
                         center: ['50%', '50%'],
                         force: {
-                            repulsion: 320,
-                            gravity: 0.19,
+                            repulsion: 340,
+                            gravity: 0.21,
                             edgeLength: 60
                         },
                         data: nodes
